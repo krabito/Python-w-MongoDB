@@ -1,0 +1,11 @@
+testMongoGIT.py - Python script to enter data into a Atlas MongoDB.
+Database = VacationSpots
+Collections:  People, Places
+People: Firstname, Lastname, Location
+Places: Location, City, State
+
+Script enters people into the People collection, check's if their location that they entered is in the Places collection.  If it is not there, asks to enter the City and State for that location.
+Then prints out the documents in both the People and Places collection.
+- Kevin Rabito
+
+
